@@ -14,6 +14,11 @@ public class CommonDriver implements Driver {
 	private WebDriver driver;
 	private int pageLoadTimeOut;
 	private int elementDetectionTimeOut;
+	
+
+	public WebDriver getDriver() {
+		return driver;
+	}
 
 	public void setPageLoadTimeOut(int pageLoadTimeOut) {
 		this.pageLoadTimeOut = pageLoadTimeOut;
