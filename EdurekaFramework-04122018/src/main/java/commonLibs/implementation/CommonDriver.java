@@ -14,7 +14,6 @@ public class CommonDriver implements Driver {
 	private WebDriver driver;
 	private int pageLoadTimeOut;
 	private int elementDetectionTimeOut;
-	
 
 	public WebDriver getDriver() {
 		return driver;
@@ -102,16 +101,16 @@ public class CommonDriver implements Driver {
 
 	@Override
 	public void closeBrowser() throws Exception {
-		if(driver!=null) {
-	 driver.close();
+		if (driver != null) {
+			driver.close();
 		}
 
 	}
 
 	@Override
 	public void closeAllBrowser() throws Exception {
-		if(driver!=null) {
-		driver.quit();
+		if (driver != null) {
+			driver.quit();
 		}
 
 	}
